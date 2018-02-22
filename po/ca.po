@@ -941,7 +941,7 @@ msgstr "Avui: "
 #. Format: "Today: Friday, July 01 2005"
 #: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:17
 msgid "dddd, MMMM d yyyy"
-msgstr "dddd, d MMMM yyyy"
+msgstr "dddd, d MMMM de yyyy"
 
 #: ../Tomboy/Addins/NoteOfTheDay/NoteOfTheDay.cs:43
 msgid "Tasks"
@@ -2653,11 +2653,11 @@ msgstr "Sense data"
 
 #: ../Tomboy/Utils.cs:281
 msgid "MMMM d yyyy, h:mm tt"
-msgstr "MMMM d yyyy, H:mm"
+msgstr "d MMMM de yyyy, H:mm"
 
 #: ../Tomboy/Utils.cs:282
 msgid "MMMM d yyyy"
-msgstr "d MMMM yyyy"
+msgstr "d MMMM de yyyy"
 
 #: ../Tomboy/Watchers.cs:155
 #, csharp-format
