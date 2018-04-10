@@ -4,24 +4,24 @@
 #
 # Matjaž Horvat <m@owca.info>, 2006.
 # Andrej Žnidaršič <andrej.znidarsic@gmail.com>, 2010.
-# Matej Urbančič <mateju@svn.gnome.org>, 2007 - 2013.
+# Matej Urbančič <mateju@svn.gnome.org>, 2007–2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: tomboy master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=tomboy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-12-20 16:51+0000\n"
-"PO-Revision-Date: 2013-12-21 22:47+0100\n"
+"Report-Msgid-Bugs-To: https://github.com/tomboy-notes/tomboy/issues\n"
+"POT-Creation-Date: 2018-04-10 17:10+0000\n"
+"PO-Revision-Date: 2018-04-10 22:16+0200\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: ../data/GNOME_TomboyApplet.server.in.in.h:1
 msgid "Tomboy Applet Factory"
@@ -141,10 +141,35 @@ msgstr ""
 "pisave za prikaz sporočilc."
 
 #: ../data/tomboy.schemas.in.h:13
+msgid "Enable custom search match highlight color"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:14
+msgid ""
+"If true, the color set in custom_search_match_color will be used as the text "
+"background for search matches. Otherwise some default one will be used."
+msgstr ""
+"Izbrana možnost omogoča nastavitev imena pisave v custom_search_match_color, "
+"ki bo uporabljena za prikaz sporočilc. Privzeto je uporabljena sistemska "
+"pisava namizja."
+
+#: ../data/tomboy.schemas.in.h:15
+msgid "Custom search match highlight color"
+msgstr ""
+
+#: ../data/tomboy.schemas.in.h:16
+msgid ""
+"If enable_custom_search_match_color is true, the color set here will be used "
+"as the text background for search matches."
+msgstr ""
+"V primeru, da je možnost enable_custom_search_match_color omogočena, ta "
+"možnost določa ime pisave za prikaz sporočilc."
+
+#: ../data/tomboy.schemas.in.h:17
 msgid "Enable global keybindings"
 msgstr "Omogoči splošne tipkovne bližnjice"
 
-#: ../data/tomboy.schemas.in.h:14
+#: ../data/tomboy.schemas.in.h:18
 msgid ""
 "If true, the desktop-global keybindings set in /apps/tomboy/"
 "global_keybindings will be enabled, allowing for useful Tomboy actions to be "
@@ -154,22 +179,22 @@ msgstr ""
 "global_keybindings, s katerimi lahko nadzirate uporabna dejanja programa "
 "Tomboy."
 
-#: ../data/tomboy.schemas.in.h:15
+#: ../data/tomboy.schemas.in.h:19
 msgid "Enable the Delete Note confirmation dialog"
 msgstr "Omogoči potrditveno okno brisanja sporočilc"
 
-#: ../data/tomboy.schemas.in.h:16
+#: ../data/tomboy.schemas.in.h:20
 msgid ""
 "If disabled, the \"Delete Note\" confirmation dialog will be suppressed."
 msgstr ""
 "Onemogočena možnost prepreči prikazovanje potrditvenega okna \"Izbriši "
 "sporočilce\"."
 
-#: ../data/tomboy.schemas.in.h:17
+#: ../data/tomboy.schemas.in.h:21
 msgid "Enable Tray Icon"
 msgstr "Omogoči ikono sistemske vrstice"
 
-#: ../data/tomboy.schemas.in.h:18
+#: ../data/tomboy.schemas.in.h:22
 msgid ""
 "If true, Tomboy's tray icon will be displayed in the notification area. "
 "Disabling this may be useful when another application is providing the "
@@ -178,11 +203,11 @@ msgstr ""
 "Izbrana možnost omogoči prikaz ikone v obvestilnem območju pladnja. Možnost "
 "je treba onemogočiti, kadar je dejaven drug program, ki podpira to zmožnost."
 
-#: ../data/tomboy.schemas.in.h:19
+#: ../data/tomboy.schemas.in.h:23
 msgid "Start Here Note"
 msgstr "Sporočilce začnite tukaj"
 
-#: ../data/tomboy.schemas.in.h:20
+#: ../data/tomboy.schemas.in.h:24
 msgid ""
 "The note URI of the note that should be considered the \"Start Here\" note, "
 "which is always placed at the bottom of the Tomboy note menu and also "
@@ -191,11 +216,11 @@ msgstr ""
 "URI sporočilca, ki je določeno kot sporočilce \"Začnite tukaj\" in je vedno "
 "postavljeno na dnu menija programa, dostopno pa je tudi s tipkovno bližnjico."
 
-#: ../data/tomboy.schemas.in.h:21
+#: ../data/tomboy.schemas.in.h:25
 msgid "Minimum number of notes to show in menu"
 msgstr "Najmanjše število sporočilc prikazanih v meniju"
 
-#: ../data/tomboy.schemas.in.h:22
+#: ../data/tomboy.schemas.in.h:26
 msgid ""
 "Integer determining the minimum number of notes to show in the Tomboy note "
 "menu."
@@ -203,11 +228,11 @@ msgstr ""
 "Številčna vrednost določa najmanjše število sporočilc, ki bodo prikazana v "
 "meniju programa Tomboy."
 
-#: ../data/tomboy.schemas.in.h:23
+#: ../data/tomboy.schemas.in.h:27
 msgid "Maximum number of notes to show in menu"
 msgstr "Največje število v meniju prikazanih sporočilc"
 
-#: ../data/tomboy.schemas.in.h:24
+#: ../data/tomboy.schemas.in.h:28
 msgid ""
 "Integer determining the maximum number of notes to show in the Tomboy note "
 "menu."
@@ -215,11 +240,11 @@ msgstr ""
 "Številčna vrednost določa največje število sporočilc, ki bodo prikazana v "
 "meniju programa Tomboy."
 
-#: ../data/tomboy.schemas.in.h:25
+#: ../data/tomboy.schemas.in.h:29
 msgid "List of pinned notes."
 msgstr "Seznam pripetih sporočilc."
 
-#: ../data/tomboy.schemas.in.h:26
+#: ../data/tomboy.schemas.in.h:30
 msgid ""
 "Whitespace-separated list of note URIs for notes that should always appear "
 "in the Tomboy note menu."
@@ -227,11 +252,11 @@ msgstr ""
 "S presledki ločen seznam naslovov sporočilc, ki naj bodo vedno prikazana v "
 "meniju programa."
 
-#: ../data/tomboy.schemas.in.h:27
+#: ../data/tomboy.schemas.in.h:31
 msgid "Maximum note title length to show in tray menu."
 msgstr "Največja dolžina sporočilca prikazanega v sistemski vrstici"
 
-#: ../data/tomboy.schemas.in.h:28
+#: ../data/tomboy.schemas.in.h:32
 msgid ""
 "Maximum characters of note title to show in the Tomboy tray or panel applet "
 "note menu."
@@ -240,12 +265,12 @@ msgstr ""
 "ali v meniju apleta pulta."
 
 #. Enable Startup Notes option
-#: ../data/tomboy.schemas.in.h:29
+#: ../data/tomboy.schemas.in.h:33
 #: ../Tomboy/Addins/AdvancedPreferences/EnableStartupNotesPreference.cs:27
 msgid "Enable startup notes"
 msgstr "Omogoči sporočilca ob zagonu"
 
-#: ../data/tomboy.schemas.in.h:30
+#: ../data/tomboy.schemas.in.h:34
 msgid ""
 "If enabled, all notes that were open when Tomboy quit will automatically be "
 "reopened at startup."
@@ -253,11 +278,11 @@ msgstr ""
 "Izbrana možnost omogoča nastavitev samodejnega odpiranja sporočilc, ki so "
 "bila med zadnjim končanjem programa Tomboy odprta."
 
-#: ../data/tomboy.schemas.in.h:31
+#: ../data/tomboy.schemas.in.h:35
 msgid "Show applet menu"
 msgstr "Pokaži meni apletov"
 
-#: ../data/tomboy.schemas.in.h:32
+#: ../data/tomboy.schemas.in.h:36
 msgid ""
 "The global keybinding for showing the Tomboy applet's menu. The format looks "
 "like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The parser is "
@@ -273,11 +298,11 @@ msgstr ""
 "možnost nastavite na posebni niz \"onemogočeno\", potem za to dejanje ne bo "
 "tipkovne bližnjice."
 
-#: ../data/tomboy.schemas.in.h:33
+#: ../data/tomboy.schemas.in.h:37
 msgid "Open Start Here"
 msgstr "Odpri začnite tukaj"
 
-#: ../data/tomboy.schemas.in.h:34
+#: ../data/tomboy.schemas.in.h:38
 msgid ""
 "The global keybinding for opening the \"Start Here\" note. The format looks "
 "like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The parser is "
@@ -293,11 +318,11 @@ msgstr ""
 "možnost nastavite na posebni niz \"onemogočeno\", potem za to dejanje ne bo "
 "tipkovne bližnjice."
 
-#: ../data/tomboy.schemas.in.h:35
+#: ../data/tomboy.schemas.in.h:39
 msgid "Create a new Note"
 msgstr "Ustvari novo sporočilce"
 
-#: ../data/tomboy.schemas.in.h:36
+#: ../data/tomboy.schemas.in.h:40
 msgid ""
 "The global keybinding for creating and displaying a new Note. The format "
 "looks like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The "
@@ -313,11 +338,11 @@ msgstr ""
 "možnost nastavite na posebni niz \"onemogočeno\", potem za to dejanje ne bo "
 "tipkovne bližnjice."
 
-#: ../data/tomboy.schemas.in.h:37
+#: ../data/tomboy.schemas.in.h:41
 msgid "Open Search Dialog"
 msgstr "Odpri iskalno okno"
 
-#: ../data/tomboy.schemas.in.h:38
+#: ../data/tomboy.schemas.in.h:42
 msgid ""
 "The global keybinding for opening the Note Search dialog. The format looks "
 "like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The parser is "
@@ -333,11 +358,11 @@ msgstr ""
 "možnost nastavite na posebni niz \"onemogočeno\", potem za to dejanje ne bo "
 "tipkovne bližnjice."
 
-#: ../data/tomboy.schemas.in.h:39
+#: ../data/tomboy.schemas.in.h:43
 msgid "Open Recent Changes"
 msgstr "Odpri nedavne spremembe"
 
-#: ../data/tomboy.schemas.in.h:40
+#: ../data/tomboy.schemas.in.h:44
 msgid ""
 "The global keybinding for opening the Recent Changes dialog. The format "
 "looks like \"&lt;Control&gt;a\" or \"&lt;Shift&gt;&lt;Alt&gt;F1\". The "
@@ -352,11 +377,11 @@ msgstr ""
 "\"&lt;Ctl&gt;\" in \"&lt;Ctrl&gt;\". V primeru da to možnost nastavite na "
 "posebni niz \"onemogočeno\", potem za to dejanje ne bo tipkovne bližnjice."
 
-#: ../data/tomboy.schemas.in.h:41
+#: ../data/tomboy.schemas.in.h:45
 msgid "Saved height of \"Search All Notes\" window"
 msgstr "Shranjena višina okna \"Preišči vse opombe\""
 
-#: ../data/tomboy.schemas.in.h:42
+#: ../data/tomboy.schemas.in.h:46
 msgid ""
 "Determines pixel height of \"Search All Notes\" window; stored on Tomboy "
 "exit."
@@ -364,22 +389,22 @@ msgstr ""
 "Določa višino iskalnega okna \"Preišči vse opombe\" v točkah; shranjeno ob "
 "končanju programa."
 
-#: ../data/tomboy.schemas.in.h:43
+#: ../data/tomboy.schemas.in.h:47
 msgid "Saved width of \"Search All Notes\" window"
 msgstr "Shranjeno z oknom \"Preišči vse opombe\""
 
-#: ../data/tomboy.schemas.in.h:44
+#: ../data/tomboy.schemas.in.h:48
 msgid ""
 "Determines pixel width of \"Search All Notes\" window; stored on Tomboy exit."
 msgstr ""
 "Določa širino iskalnega okna \"Preišči vse opombe\" v točkah; shranjeno ob "
 "končanju programa."
 
-#: ../data/tomboy.schemas.in.h:45
+#: ../data/tomboy.schemas.in.h:49
 msgid "Saved horizontal position of \"Search All Notes\" window"
 msgstr "Shranjen vodoraven položaj okna \"Preišči vse opombe\""
 
-#: ../data/tomboy.schemas.in.h:46
+#: ../data/tomboy.schemas.in.h:50
 msgid ""
 "Determines X coordinate of \"Search All Notes\" window; stored on Tomboy "
 "exit."
@@ -387,11 +412,11 @@ msgstr ""
 "Določa koordinato X iskalnega okna \"Preišči vse opombe\" ; shranjena ob "
 "končanju programa."
 
-#: ../data/tomboy.schemas.in.h:47
+#: ../data/tomboy.schemas.in.h:51
 msgid "Saved vertical position of \"Search All Notes\" window"
 msgstr "Shranjen navpičen položaj okna \"Preišči vse opombe\""
 
-#: ../data/tomboy.schemas.in.h:48
+#: ../data/tomboy.schemas.in.h:52
 msgid ""
 "Determines Y coordinate of \"Search All Notes\" window; stored on Tomboy "
 "exit."
@@ -399,21 +424,21 @@ msgstr ""
 "Določa koordinato Y iskalnega okna \"Preišči vse opombe\"; shranjena ob "
 "končanju programa."
 
-#: ../data/tomboy.schemas.in.h:49
+#: ../data/tomboy.schemas.in.h:53
 msgid "Last Directory used in HTML Export"
 msgstr "Na zadnje uporabljena mapa za izvoz v HTML"
 
-#: ../data/tomboy.schemas.in.h:50
+#: ../data/tomboy.schemas.in.h:54
 msgid ""
 "The last directory a note was exported to using the Export To HTML plugin."
 msgstr ""
 "Zadnja mapa v katero so bila izvožena sporočilca z vstavkom Izvozi v HTML."
 
-#: ../data/tomboy.schemas.in.h:51
+#: ../data/tomboy.schemas.in.h:55
 msgid "HTML Export Linked Notes"
 msgstr "HTML izvoz povezanih sporočilc"
 
-#: ../data/tomboy.schemas.in.h:52
+#: ../data/tomboy.schemas.in.h:56
 msgid ""
 "The last setting for the 'Export linked notes' checkbox in the Export to "
 "HTML plugin."
@@ -421,11 +446,11 @@ msgstr ""
 "Zadnja nastavitev za potrditveno polje 'Izvozi povezana sporočilca' v "
 "vstavku izvoza v HTML."
 
-#: ../data/tomboy.schemas.in.h:53
+#: ../data/tomboy.schemas.in.h:57
 msgid "HTML Export All Linked Notes"
 msgstr "HTML izvoz vseh povezanih sporočilc"
 
-#: ../data/tomboy.schemas.in.h:54
+#: ../data/tomboy.schemas.in.h:58
 msgid ""
 "The last setting for the 'Include all other linked notes' checkbox in the "
 "Export to HTML plugin. This setting is used in conjunction with the 'HTML "
@@ -437,11 +462,11 @@ msgstr ""
 "ki določa ali naj bodo vsa sporočilca (najdena rekurzivno) vključena pri "
 "izvozu v HTML."
 
-#: ../data/tomboy.schemas.in.h:55
+#: ../data/tomboy.schemas.in.h:59
 msgid "Sticky Note Importer First Run"
 msgstr "Prva uporaba uvoznika lepljivih sporočilc"
 
-#: ../data/tomboy.schemas.in.h:56
+#: ../data/tomboy.schemas.in.h:60
 msgid ""
 "Indicates that the Sticky Note Importer plugin has not been run, so it "
 "should run automatically the next time Tomboy starts."
@@ -449,23 +474,21 @@ msgstr ""
 "Označuje, da vstavek uvoznika lepljivih sporočilc ni bil zagnan, zato bi se "
 "moral ob naslednji uporabi Tomboya samodejno zagnati."
 
-#: ../data/tomboy.schemas.in.h:57
+#: ../data/tomboy.schemas.in.h:61
 msgid "Synchronization Client ID"
 msgstr "ID odjemalca usklajevanja"
 
-#: ../data/tomboy.schemas.in.h:58
+#: ../data/tomboy.schemas.in.h:62
 msgid ""
 "Unique identifier for this Tomboy client, used when communicating with a "
-"sychronization server."
+"synchronization server."
 msgstr ""
-"Edinstveno določilo za ta odjemalec Tomboy, namenjeno komunikaciji s "
-"strežnikom usklajevanja."
 
-#: ../data/tomboy.schemas.in.h:59
+#: ../data/tomboy.schemas.in.h:63
 msgid "Synchronization Local Server Path"
 msgstr "Pod do krajevnega strežnika usklajevanja"
 
-#: ../data/tomboy.schemas.in.h:60
+#: ../data/tomboy.schemas.in.h:64
 msgid ""
 "Path to the synchronization server when using the filesystem synchronization "
 "service addin."
@@ -473,11 +496,11 @@ msgstr ""
 "Pot do strežnika usklajevanja  ob uporabi vstavka storitve usklajevanja "
 "datotečnega sistema."
 
-#: ../data/tomboy.schemas.in.h:61
+#: ../data/tomboy.schemas.in.h:65
 msgid "Selected Synchronization Service Addin"
 msgstr "Izbran je bil vstavek storitve usklajevanja"
 
-#: ../data/tomboy.schemas.in.h:62
+#: ../data/tomboy.schemas.in.h:66
 msgid ""
 "Unique identifier for the currently configured note synchronization service "
 "addin."
@@ -485,11 +508,11 @@ msgstr ""
 "Edinstveno določilo za trenutno nastavljen vstavek storitve uskladitve "
 "sporočilc."
 
-#: ../data/tomboy.schemas.in.h:63
+#: ../data/tomboy.schemas.in.h:67
 msgid "FUSE Mounting Timeout (ms)"
 msgstr "Zakasnitev priklopa FUSE (ms)"
 
-#: ../data/tomboy.schemas.in.h:64
+#: ../data/tomboy.schemas.in.h:68
 msgid ""
 "Time (in milliseconds) Tomboy should wait for a response when using FUSE to "
 "mount a sync share."
@@ -497,35 +520,35 @@ msgstr ""
 "Čas (v millisekundah) čakanja programa Tomboy na odziv ob uporabi FUSE za "
 "priklop usklajevalne točke v souporabi."
 
-#: ../data/tomboy.schemas.in.h:65
+#: ../data/tomboy.schemas.in.h:69
 msgid "SSHFS Remote Synchronization Folder"
 msgstr "Mapa oddaljenega strežnika usklajevanja SSHFS"
 
-#: ../data/tomboy.schemas.in.h:66
+#: ../data/tomboy.schemas.in.h:70
 msgid "Path on SSH server to Tomboy synchronization directory (optional)."
 msgstr "Pot na strežniku SSH do mape usklajevanja (izbirno)."
 
-#: ../data/tomboy.schemas.in.h:67
+#: ../data/tomboy.schemas.in.h:71
 msgid "SSHFS Synchronization Server URL"
 msgstr "URL strežnika usklajevanja SSHFS"
 
-#: ../data/tomboy.schemas.in.h:68
+#: ../data/tomboy.schemas.in.h:72
 msgid "URL of SSH server containing Tomboy synchronization directory."
 msgstr "URL naslov strežnika SSH z usklajevalno mapo programa Tomboy."
 
-#: ../data/tomboy.schemas.in.h:69
+#: ../data/tomboy.schemas.in.h:73
 msgid "SSHFS Remote Synchronization User Name"
 msgstr "Uporabniško ime za oddaljeni strežnik usklajevanja SSHFS"
 
-#: ../data/tomboy.schemas.in.h:70
+#: ../data/tomboy.schemas.in.h:74
 msgid "User name to use when connecting to the synchronization server via SSH."
 msgstr "Uporabniško ime za povezavo z uskladitvenim strežnikom preko SSH."
 
-#: ../data/tomboy.schemas.in.h:71
+#: ../data/tomboy.schemas.in.h:75
 msgid "SSHFS Synchronization Server Port"
 msgstr "Vrata strežnika usklajevanja SSHFS"
 
-#: ../data/tomboy.schemas.in.h:72
+#: ../data/tomboy.schemas.in.h:76
 msgid ""
 "The port to use when connecting to the synchronization server via SSH. Set "
 "to -1 or less if default SSH port settings should be used instead."
@@ -533,11 +556,11 @@ msgstr ""
 "Vrata za povezavo z usklajevanim strežnikom preko SSH. Vrednost -1 ali manj "
 "določa, da bodo uporabljene privzete nastavitve SSH."
 
-#: ../data/tomboy.schemas.in.h:73
+#: ../data/tomboy.schemas.in.h:77
 msgid "Accept SSL Certificates"
 msgstr "Sprejmi potrdila SSL"
 
-#: ../data/tomboy.schemas.in.h:74
+#: ../data/tomboy.schemas.in.h:78
 msgid ""
 "Use wdfs option \"-ac\" to accept SSL certificates without prompting the "
 "user."
@@ -545,11 +568,11 @@ msgstr ""
 "Uporabite možnost wdfs \"-ac\" za sprejem potrdil SSL brez potrditve "
 "uporabnika."
 
-#: ../data/tomboy.schemas.in.h:75
+#: ../data/tomboy.schemas.in.h:79
 msgid "Note Synchronization Conflict Saved Behavior"
 msgstr "Shranjeno obnašanje pri sporih usklajevanja sporočilc"
 
-#: ../data/tomboy.schemas.in.h:76
+#: ../data/tomboy.schemas.in.h:80
 msgid ""
 "Integer value indicating if there is a preference to always perform a "
 "specific behavior when a conflict is detected, instead of prompting the "
@@ -562,11 +585,11 @@ msgstr ""
 "notranje oštevilčene. Vrednost 0 določa, da je uporabnik vedno obveščen o "
 "sporu in ima možnost vsak spor reševati posebej."
 
-#: ../data/tomboy.schemas.in.h:77
+#: ../data/tomboy.schemas.in.h:81
 msgid "Automatic Background Synchronization Timeout"
 msgstr "Zakasnitev samodejnega usklajevanja v ozadju"
 
-#: ../data/tomboy.schemas.in.h:78
+#: ../data/tomboy.schemas.in.h:82
 msgid ""
 "Integer value indicating how frequently to perform a background sync of your "
 "notes (when sync is configured). Any value less than 1 indicates that "
@@ -577,11 +600,11 @@ msgstr ""
 "v ozadju. Vrednosti pod 1 onemogočijo samodejno usklajevanje. Najnižja "
 "sprejemljiva vrednost je 5 minut."
 
-#: ../data/tomboy.schemas.in.h:79
+#: ../data/tomboy.schemas.in.h:83
 msgid "Link Updating Behavior on Note Rename"
 msgstr "Obnašanje posodabljanja povezave sporočilc ob preimenovanju sporočilca"
 
-#: ../data/tomboy.schemas.in.h:80
+#: ../data/tomboy.schemas.in.h:84
 msgid ""
 "Integer value indicating if there is a preference to always perform a "
 "specific link updating behavior when a note is renamed, instead of prompting "
@@ -600,27 +623,27 @@ msgstr ""
 "posodobijo na novo ime sporočila tako, da bodo še vedno povezovale na "
 "preimenovano sporočilce."
 
-#: ../data/tomboy.schemas.in.h:81
+#: ../data/tomboy.schemas.in.h:85
 msgid "Timestamp format"
 msgstr "Oblika časovnega žiga"
 
-#: ../data/tomboy.schemas.in.h:82
+#: ../data/tomboy.schemas.in.h:86
 msgid "The date format that is used for the timestamp."
 msgstr "Oblika zapisa datuma, ki se uporablja za časovni žig."
 
-#: ../data/tomboy.schemas.in.h:83
+#: ../data/tomboy.schemas.in.h:87
 msgid "Enable closing notes with escape."
 msgstr "Omogoči zapiranje sporočilc z ubežno tipko."
 
-#: ../data/tomboy.schemas.in.h:84
+#: ../data/tomboy.schemas.in.h:88
 msgid "If enabled, an opened note can be closed by hitting the escape key."
 msgstr "Možnost omogoča, da zaprete odprta sporočilca s pritiskom tipke Esc."
 
-#: ../data/tomboy.schemas.in.h:85
+#: ../data/tomboy.schemas.in.h:89
 msgid "The handler for \"note://\" URLs"
 msgstr "Upravljalnik URL-jev \"note://\""
 
-#: ../data/tomboy.schemas.in.h:86
+#: ../data/tomboy.schemas.in.h:90
 msgid "Set to TRUE to activate"
 msgstr "Izbrana možnost omogoči delovanje"
 
@@ -672,7 +695,7 @@ msgstr "Konča Tomboy"
 msgid "_Edit"
 msgstr "_Uredi"
 
-#: ../Tomboy/ActionManager.cs:154 ../Tomboy/PreferencesDialog.cs:63
+#: ../Tomboy/ActionManager.cs:154 ../Tomboy/PreferencesDialog.cs:65
 msgid "Tomboy Preferences"
 msgstr "Možnosti Tomboya"
 
@@ -872,7 +895,7 @@ msgstr "Vstavi časovni žig"
 
 #. initial newline
 #: ../Tomboy/Addins/InsertTimestamp/InsertTimestampPreferences.cs:29
-#: ../Tomboy/Applet.cs:223 ../Tomboy/Preferences.cs:159
+#: ../Tomboy/Applet.cs:223 ../Tomboy/Preferences.cs:167
 msgid "dddd, MMMM d, h:mm tt"
 msgstr "dddd, MMMM d, h:mm tt"
 
@@ -1237,7 +1260,7 @@ msgid "Could not save the files in \"{0}\""
 msgstr "Ni mogoče shraniti datotek v \"{0}\""
 
 #. Translators: {0} is the export type, e.g. HTML
-#: ../Tomboy/ExportAllApplicationAddin.cs:563
+#: ../Tomboy/ExportAllApplicationAddin.cs:569
 #, csharp-format
 msgid "Create destination folder for {0} export"
 msgstr "Ustvari ciljno mapo za izvoz {0}"
@@ -1395,17 +1418,17 @@ msgstr "Beležka"
 msgid "_New notebook..."
 msgstr "Nova _beležka ..."
 
-#: ../Tomboy/Note.cs:515
+#: ../Tomboy/Note.cs:525
 #, csharp-format
 msgid "New Note {0}"
 msgstr "Novo sporočilce {0}"
 
-#: ../Tomboy/Note.cs:1678
+#: ../Tomboy/Note.cs:1694
 #, csharp-format
 msgid "Really delete \"{0}\"?"
 msgstr "Ali naj se \"{0}\" res izbriše?"
 
-#: ../Tomboy/Note.cs:1681
+#: ../Tomboy/Note.cs:1697
 #, csharp-format
 msgid "Really delete this {0} note?"
 msgid_plural "Really delete these {0} notes?"
@@ -1414,28 +1437,36 @@ msgstr[1] "Ali želite izbrisati {0} sporočilce?"
 msgstr[2] "Ali želite izbrisati {0} sporočilci?"
 msgstr[3] "Ali želite izbrisati {0} sporočilca?"
 
-#: ../Tomboy/Note.cs:1692
+#: ../Tomboy/Note.cs:1708
 msgid "If you delete a note it is permanently lost."
 msgstr "V primeru da sporočilce izbrišete, bo trajno izgubljeno."
 
-#: ../Tomboy/Note.cs:1726
+#. Translators: "note autosaving" is a periodic process we normally run
+#. in the background and not an invitation for the user to note something.
+#: ../Tomboy/Note.cs:1744
 #, csharp-format
 msgid ""
 "An error occurred while saving your notes. Please check that you have "
 "sufficient disk space, and that you have appropriate rights on {0}. Error "
-"details can be found in {1}."
+"details can be found in {1}.\n"
+"\n"
+"Note autosaving is disabled until you close this dialog, to allow you to "
+"take an appropriate action."
 msgstr ""
 "Prišlo je do napake med shranjevanjem sporočilc. Preverite, da je dovolj "
 "prostora na disku in da imate ustrezna dovoljenja v {0}. Podrobnosti o "
-"napaki je mogoče najti v {1}."
+"napaki je mogoče najti v {1}.\n"
+"\n"
+"Opozorilo: samodejno shranjevanje je onemogočeno, dokler ne zaprete "
+"pogovornega okna."
 
-#: ../Tomboy/Note.cs:1742
+#: ../Tomboy/Note.cs:1762
 msgid "Error saving note data."
 msgstr "Napaka med shranjevanjem podatkov."
 
 #. New Note Template
 #. Translators: This is 'New Note' Template, not New 'Note Template'
-#: ../Tomboy/NoteManager.cs:21 ../Tomboy/PreferencesDialog.cs:264
+#: ../Tomboy/NoteManager.cs:21 ../Tomboy/PreferencesDialog.cs:283
 msgid "New Note Template"
 msgstr "Nova predloga sporočilca"
 
@@ -1483,10 +1514,9 @@ msgstr ""
 "Vaša sporočilca in nastavitve so bile prekopirane tudi v nove mape, kjer "
 "novejša različica išče podatke:\n"
 "\n"
-"<list><list-item dir=\"ltr\">sporočilca se nahajajo v mapi <link:url>{1}</"
-"link:url>,\n"
-"</list-item><list-item dir=\"ltr\">nastavitve so shranjene v mapi<link:url>"
-"{2}</link:url>,\n"
+"<list><list-item dir=\"ltr\">sporočilca so v mapi <link:url>{1}</link:url>,\n"
+"</list-item><list-item dir=\"ltr\">nastavitve so shranjene v mapi<link:"
+"url>{2}</link:url>,\n"
 "</list-item><list-item dir=\"ltr\">vstavki so nameščeni v mapi <link:url>{3}"
 "</link:url>,\n"
 "</list-item><list-item dir=\"ltr\">dnevniške datoteke so shranjene v mapi "
@@ -1503,8 +1533,8 @@ msgid ""
 "Use this \"Start Here\" note to begin organizing your ideas and thoughts.\n"
 "\n"
 "You can create new notes to hold your ideas by selecting the \"Create New "
-"Note\" item from the Tomboy Notes menu in your GNOME Panel. Your note will "
-"be saved automatically.\n"
+"Note\" item from the Tomboy Notes menu. Your note will be saved "
+"automatically.\n"
 "\n"
 "Then organize the notes you create by linking related notes and ideas "
 "together!\n"
@@ -1514,19 +1544,19 @@ msgid ""
 "Tomboy</link:internal> it automatically gets underlined?  Click on the link "
 "to open the note.</note-content>"
 msgstr ""
-"<note-content>Začnite tukaj\n"
+"<note-content>Začnite tu!\n"
 "\n"
 "<bold>Dobrodošli v program Tomboy!</bold>\n"
 "\n"
-"Oglejte si sporočilce \"Začnite tukaj\" za začetek organizacije vaših idej "
-"in misli.\n"
+"Oglejte si sporočilce \"Začnite tu!\" za predstavitev možnosti organiziranja "
+"zamisli in nalog.\n"
 "\n"
 "Ustvarite lahko nova sporočilca z izbiro \"Ustvari nova sporočilca\" v "
 "meniju programa Tomboy, ki ga najdete na pladnju namizja. Sporočilce bo "
 "shranjeno samodejno.\n"
 "\n"
 "Sorodna ali podobna sporočilca lahko razporedite in povežete skupaj v enotno "
-"misel!\n"
+"zamisel!\n"
 "\n"
 "Za vas smo ustvarili sporočilce <link:internal>Uporaba povezav v programu "
 "Tomboy</link:internal>. Ali opazite, da se vsak vtipkan naslov <link:"
@@ -1614,8 +1644,7 @@ msgstr ""
 msgid "Rename Links"
 msgstr "Preimenuj povezave "
 
-#: ../Tomboy/NoteRenameDialog.cs:95
-#: ../Tomboy/Synchronization/SyncDialog.cs:119
+#: ../Tomboy/NoteRenameDialog.cs:95 ../Tomboy/Synchronization/SyncDialog.cs:119
 msgid "Note Title"
 msgstr "Naslov sporočilca"
 
@@ -1764,75 +1793,75 @@ msgstr "_Naslednje"
 msgid "{0} of {1}"
 msgstr "{0} od {1}"
 
-#: ../Tomboy/NoteWindow.cs:1368
+#: ../Tomboy/NoteWindow.cs:1364
 msgid "_Bold"
 msgstr "_Krepko"
 
-#: ../Tomboy/NoteWindow.cs:1380
+#: ../Tomboy/NoteWindow.cs:1376
 msgid "_Italic"
 msgstr "_Ležeče"
 
-#: ../Tomboy/NoteWindow.cs:1392
+#: ../Tomboy/NoteWindow.cs:1388
 msgid "_Strikeout"
 msgstr "P_rečrtano"
 
-#: ../Tomboy/NoteWindow.cs:1404
+#: ../Tomboy/NoteWindow.cs:1400
 msgid "_Highlight"
 msgstr "_Poudari"
 
-#: ../Tomboy/NoteWindow.cs:1417
+#: ../Tomboy/NoteWindow.cs:1413
 msgid "Font Size"
 msgstr "Velikost pisave"
 
-#: ../Tomboy/NoteWindow.cs:1420
+#: ../Tomboy/NoteWindow.cs:1416
 msgid "_Normal"
 msgstr "_Običajno"
 
-#: ../Tomboy/NoteWindow.cs:1437
+#: ../Tomboy/NoteWindow.cs:1433
 msgid "Hu_ge"
 msgstr "O_gromno"
 
-#: ../Tomboy/NoteWindow.cs:1445
+#: ../Tomboy/NoteWindow.cs:1441
 msgid "_Large"
 msgstr "_Veliko"
 
-#: ../Tomboy/NoteWindow.cs:1453
+#: ../Tomboy/NoteWindow.cs:1449
 msgid "S_mall"
 msgstr "_Majhno"
 
-#: ../Tomboy/NoteWindow.cs:1462
+#: ../Tomboy/NoteWindow.cs:1458
 msgid "Increase Font Size"
 msgstr "Povečaj velikost pisave"
 
-#: ../Tomboy/NoteWindow.cs:1480
+#: ../Tomboy/NoteWindow.cs:1476
 msgid "Decrease Font Size"
 msgstr "Pomanjšaj velikost pisave"
 
-#: ../Tomboy/NoteWindow.cs:1500
+#: ../Tomboy/NoteWindow.cs:1496
 msgid "Bullets"
 msgstr "Vrstične oznake"
 
-#: ../Tomboy/PreferencesDialog.cs:75
+#: ../Tomboy/PreferencesDialog.cs:77
 msgid "Editing"
 msgstr "Urejanje"
 
-#: ../Tomboy/PreferencesDialog.cs:78
+#: ../Tomboy/PreferencesDialog.cs:80
 msgid "Hotkeys"
 msgstr "Hitre tipke"
 
-#: ../Tomboy/PreferencesDialog.cs:80
+#: ../Tomboy/PreferencesDialog.cs:82
 msgid "Synchronization"
 msgstr "Usklajevanje"
 
-#: ../Tomboy/PreferencesDialog.cs:81
+#: ../Tomboy/PreferencesDialog.cs:83
 msgid "Add-ins"
 msgstr "Vstavki"
 
-#: ../Tomboy/PreferencesDialog.cs:181
+#: ../Tomboy/PreferencesDialog.cs:183
 msgid "_Spell check while typing"
 msgstr "_Preverjanje črkovanje med tipkanjem"
 
-#: ../Tomboy/PreferencesDialog.cs:190
+#: ../Tomboy/PreferencesDialog.cs:192
 msgid ""
 "Misspellings will be underlined in red, with correct spelling suggestions "
 "shown in the context menu."
@@ -1841,11 +1870,11 @@ msgstr ""
 "desnega klika."
 
 #. WikiWords...
-#: ../Tomboy/PreferencesDialog.cs:201
+#: ../Tomboy/PreferencesDialog.cs:203
 msgid "Highlight _WikiWords"
 msgstr "Poudari _WikiBesede"
 
-#: ../Tomboy/PreferencesDialog.cs:209
+#: ../Tomboy/PreferencesDialog.cs:211
 msgid ""
 "Enable this option to highlight words <b>ThatLookLikeThis</b>. Clicking the "
 "word will create a note with that name."
@@ -1854,31 +1883,35 @@ msgstr ""
 "besedo se ustvari sporočilce s tem imenom."
 
 #. Auto bulleted list
-#: ../Tomboy/PreferencesDialog.cs:216
+#: ../Tomboy/PreferencesDialog.cs:218
 msgid "Enable auto-_bulleted lists"
 msgstr "Omogoči samodejno _vrstično označene sezname"
 
-#: ../Tomboy/PreferencesDialog.cs:225
+#: ../Tomboy/PreferencesDialog.cs:227
 msgid "Use custom _font"
 msgstr "Uporabi _pisavo po meri"
 
-#: ../Tomboy/PreferencesDialog.cs:243
+#: ../Tomboy/PreferencesDialog.cs:245
+msgid "Use custom search match highlight _color"
+msgstr "Uporabite možnost poudarjanja niza iskanja po meri highlight _color"
+
+#: ../Tomboy/PreferencesDialog.cs:262
 msgid "When renaming a linked note: "
 msgstr "Ob preimenovanju povezanega sporočilca:"
 
-#: ../Tomboy/PreferencesDialog.cs:246
+#: ../Tomboy/PreferencesDialog.cs:265
 msgid "Ask me what to do"
 msgstr "Vedno me vprašaj za potrditev"
 
-#: ../Tomboy/PreferencesDialog.cs:247
+#: ../Tomboy/PreferencesDialog.cs:266
 msgid "Never rename links"
 msgstr "Niikoli ne preimenuj povezav"
 
-#: ../Tomboy/PreferencesDialog.cs:248
+#: ../Tomboy/PreferencesDialog.cs:267
 msgid "Always rename links"
 msgstr "Vedno preimenuj povezave"
 
-#: ../Tomboy/PreferencesDialog.cs:268
+#: ../Tomboy/PreferencesDialog.cs:287
 msgid ""
 "Use the new note template to specify the text that should be used when "
 "creating a new note."
@@ -1886,16 +1919,16 @@ msgstr ""
 "Uporabite predlogo novega sporočilca za vpis besedila, ki bo uporabljeno ob "
 "ustvarjanju novega sporočilca."
 
-#: ../Tomboy/PreferencesDialog.cs:277
+#: ../Tomboy/PreferencesDialog.cs:296
 msgid "Open New Note Template"
 msgstr "Odpri predlogo novega sporočilca"
 
 #. Hotkeys...
-#: ../Tomboy/PreferencesDialog.cs:334
+#: ../Tomboy/PreferencesDialog.cs:362
 msgid "Listen for _Hotkeys"
 msgstr "Čakaj na _hitre tipke"
 
-#: ../Tomboy/PreferencesDialog.cs:343
+#: ../Tomboy/PreferencesDialog.cs:371
 msgid ""
 "Hotkeys allow you to quickly access your notes from anywhere with a "
 "keypress. Example Hotkeys: <b>&lt;ALT&gt;F11</b>, <b>&lt;ALT&gt;N</b>"
@@ -1904,105 +1937,105 @@ msgstr ""
 "bližnjico. Primer hitrih tipk: <b>&lt;ALT&gt;F11</b>, <b>&lt;ALT&gt;N</b> ..."
 
 #. Show notes menu keybinding...
-#: ../Tomboy/PreferencesDialog.cs:363
+#: ../Tomboy/PreferencesDialog.cs:391
 msgid "Show notes _menu"
 msgstr "Pokaži _meni sporočilc"
 
 #. Open Start Here keybinding...
-#: ../Tomboy/PreferencesDialog.cs:380
+#: ../Tomboy/PreferencesDialog.cs:408
 msgid "Open \"_Start Here\""
 msgstr "Odpri \"_Začnite tukaj\""
 
 #. Create new note keybinding...
-#: ../Tomboy/PreferencesDialog.cs:397
+#: ../Tomboy/PreferencesDialog.cs:425
 msgid "Create _new note"
 msgstr "Ustvari _novo sporočilce"
 
 #. Open Search All Notes window keybinding...
-#: ../Tomboy/PreferencesDialog.cs:414
+#: ../Tomboy/PreferencesDialog.cs:442
 msgid "Open \"Search _All Notes\""
 msgstr "Odpri \"Poišči po _vseh sporočilcih\""
 
-#: ../Tomboy/PreferencesDialog.cs:441
+#: ../Tomboy/PreferencesDialog.cs:469
 msgid "Ser_vice:"
 msgstr "_Storitev:"
 
-#: ../Tomboy/PreferencesDialog.cs:494 ../Tomboy/PreferencesDialog.cs:1113
+#: ../Tomboy/PreferencesDialog.cs:522 ../Tomboy/PreferencesDialog.cs:1157
 msgid "Not configurable"
 msgstr "Ni nastavljivo"
 
-#: ../Tomboy/PreferencesDialog.cs:520
+#: ../Tomboy/PreferencesDialog.cs:548
 msgid "Automaticall_y Sync in Background Every"
 msgstr "_Samodejno uskladi v ozadju vsakih"
 
 #. Translators: See above comment for details on
 #. this string.
-#: ../Tomboy/PreferencesDialog.cs:526
+#: ../Tomboy/PreferencesDialog.cs:554
 msgid "Minutes"
 msgstr "Minute"
 
 #. "Advanced..." button to bring up extra sync config dialog
-#: ../Tomboy/PreferencesDialog.cs:548
+#: ../Tomboy/PreferencesDialog.cs:576
 msgid "_Advanced..."
 msgstr "_Napredno ..."
 
-#: ../Tomboy/PreferencesDialog.cs:609
+#: ../Tomboy/PreferencesDialog.cs:637
 msgid "The following add-ins are installed"
 msgstr "Nameščeni so naslednji vstavki"
 
-#: ../Tomboy/PreferencesDialog.cs:630
+#: ../Tomboy/PreferencesDialog.cs:658
 msgid "Get More Add-Ins..."
 msgstr "Več vstavkov ..."
 
-#: ../Tomboy/PreferencesDialog.cs:648
+#: ../Tomboy/PreferencesDialog.cs:676
 msgid "_Enable"
 msgstr "_Omogoči"
 
-#: ../Tomboy/PreferencesDialog.cs:654
+#: ../Tomboy/PreferencesDialog.cs:682
 msgid "_Disable"
 msgstr "O_nemogoči"
 
-#: ../Tomboy/PreferencesDialog.cs:785
+#: ../Tomboy/PreferencesDialog.cs:813
 msgid "Not Implemented"
 msgstr "Ni podprto"
 
-#: ../Tomboy/PreferencesDialog.cs:799
+#: ../Tomboy/PreferencesDialog.cs:827
 #, csharp-format
 msgid "{0} Preferences"
 msgstr "{0} Možnosti"
 
-#: ../Tomboy/PreferencesDialog.cs:938
+#: ../Tomboy/PreferencesDialog.cs:966
 msgid "Choose Note Font"
 msgstr "Izbor pisave sporočilca"
 
-#: ../Tomboy/PreferencesDialog.cs:982
+#: ../Tomboy/PreferencesDialog.cs:1026
 msgid "Other Synchronization Options"
 msgstr "Druge možnosti usklajevanja"
 
-#: ../Tomboy/PreferencesDialog.cs:988
+#: ../Tomboy/PreferencesDialog.cs:1032
 msgid ""
 "When a conflict is detected between a local note and a note on the "
 "configured synchronization server:"
 msgstr ""
 "Ko je zaznan spor med krajevno in oddaljeno kopijo na strežniku usklajevanja:"
 
-#: ../Tomboy/PreferencesDialog.cs:995
+#: ../Tomboy/PreferencesDialog.cs:1039
 msgid "Always ask me what to do."
 msgstr "Vedno me vprašaj za potrditev dejanja."
 
-#: ../Tomboy/PreferencesDialog.cs:999
+#: ../Tomboy/PreferencesDialog.cs:1043
 msgid "Rename my local note."
 msgstr "Preimenuj krajevno sporočilce."
 
-#: ../Tomboy/PreferencesDialog.cs:1003
+#: ../Tomboy/PreferencesDialog.cs:1047
 msgid "Replace my local note with the server's update."
 msgstr "Zamenjaj krajevno sporočilce s posodobljenim sporočilcem na strežniku."
 
-#: ../Tomboy/PreferencesDialog.cs:1149
+#: ../Tomboy/PreferencesDialog.cs:1193
 msgid "Are you sure?"
 msgstr "Ali ste prepričani?"
 
-#: ../Tomboy/PreferencesDialog.cs:1151
+#: ../Tomboy/PreferencesDialog.cs:1195
 msgid ""
 "Clearing your synchronization settings is not recommended.  You may be "
 "forced to synchronize all of your notes again when you save new settings."
@@ -2010,11 +2043,11 @@ msgstr ""
 "Čiščenje nastavitev usklajevanja ni priporočeno. Lahko se zgodi, da boste "
 "morali po shranjevanju novih nastavitev ponovno uskladiti vsa sporočilca."
 
-#: ../Tomboy/PreferencesDialog.cs:1164
+#: ../Tomboy/PreferencesDialog.cs:1208
 msgid "Resetting Synchronization Settings"
 msgstr "Ponastavljanje nastavitev usklajevanja"
 
-#: ../Tomboy/PreferencesDialog.cs:1166
+#: ../Tomboy/PreferencesDialog.cs:1210
 msgid ""
 "You have disabled the configured synchronization service.  Your "
 "synchronization settings will now be cleared.  You may be forced to "
@@ -2024,11 +2057,11 @@ msgstr ""
 "usklajevanja bodo počiščene. Lahko se zgodi, da bo treba vsa sporočilca "
 "znova uskladiti z novimi nastavitvami."
 
-#: ../Tomboy/PreferencesDialog.cs:1244
+#: ../Tomboy/PreferencesDialog.cs:1288
 msgid "Connection successful"
 msgstr "Povezava je uspešno vzpostavljena"
 
-#: ../Tomboy/PreferencesDialog.cs:1246
+#: ../Tomboy/PreferencesDialog.cs:1290
 msgid ""
 "Tomboy is ready to synchronize your notes. Would you like to synchronize "
 "them now?"
@@ -2036,7 +2069,7 @@ msgstr ""
 "Program Tomboy je pripravljen na usklajevanje sporočilc. Ali želite takoj "
 "zagnati usklajevanje?"
 
-#: ../Tomboy/PreferencesDialog.cs:1269
+#: ../Tomboy/PreferencesDialog.cs:1313
 #, csharp-format
 msgid ""
 "Please check your information and try again.  The log file {0} may contain "
@@ -2045,23 +2078,23 @@ msgstr ""
 "Preverite svoje podatke in poskusite znova. Več podrobnosti je mogoče najti "
 "tudi v dnevniški datoteki {0}."
 
-#: ../Tomboy/PreferencesDialog.cs:1281
+#: ../Tomboy/PreferencesDialog.cs:1325
 msgid "Error connecting"
 msgstr "Napaka med povezovanjem"
 
-#: ../Tomboy/PreferencesDialog.cs:1365
+#: ../Tomboy/PreferencesDialog.cs:1409
 msgid "Version:"
 msgstr "Različica:"
 
-#: ../Tomboy/PreferencesDialog.cs:1372
+#: ../Tomboy/PreferencesDialog.cs:1416
 msgid "Author:"
 msgstr "Avtor:"
 
-#: ../Tomboy/PreferencesDialog.cs:1379
+#: ../Tomboy/PreferencesDialog.cs:1423
 msgid "Copyright:"
 msgstr "Avtorske pravice:"
 
-#: ../Tomboy/PreferencesDialog.cs:1385
+#: ../Tomboy/PreferencesDialog.cs:1429
 msgid "Add-in Dependencies:"
 msgstr "Odvisnosti vstavkov:"
 
@@ -2124,7 +2157,7 @@ msgstr ""
 msgid "Click here to search across all notebooks"
 msgstr "Kliknite tu za iskanje med vsemi beležkami."
 
-#: ../Tomboy/RecentChanges.cs:780
+#: ../Tomboy/RecentChanges.cs:781
 msgid "Notes"
 msgstr "Sporočilca"
 
@@ -2158,8 +2191,8 @@ msgid "FUSE could not be enabled."
 msgstr "Ni mogoče omogočiti okolja FUSE."
 
 #: ../Tomboy/Synchronization/FuseSyncServiceAddin.cs:233
-msgid "An error ocurred while connecting to the specified server:"
-msgstr "Prišlo je do napake med povezovanjem z navedenim strežnikom:"
+msgid "An error occurred while connecting to the specified server:"
+msgstr "Prišlo je do napake med povezovanjem na strežnik:"
 
 #. Expander containing TreeView
 #: ../Tomboy/Synchronization/SyncDialog.cs:89
@@ -2365,12 +2398,12 @@ msgstr ""
 "želite storiti s svojim krajevnim sporočilcem?"
 
 #: ../Tomboy/Synchronization/SyncUtils.cs:119
-#: ../Tomboy/Synchronization/SyncUtils.cs:163
+#: ../Tomboy/Synchronization/SyncUtils.cs:162
 msgid "Could not enable FUSE"
 msgstr "Ni mogoče omogočiti FUSE."
 
 #: ../Tomboy/Synchronization/SyncUtils.cs:120
-#: ../Tomboy/Synchronization/SyncUtils.cs:164
+#: ../Tomboy/Synchronization/SyncUtils.cs:163
 msgid ""
 "The FUSE module could not be loaded. Please check that it is installed "
 "properly and try again."
@@ -2382,15 +2415,16 @@ msgstr ""
 msgid "Enable FUSE?"
 msgstr "Ali naj bo FUSE omogočen?"
 
-#. TODO: This message isn't entirely accurate.
-#. We should fix it.
-#: ../Tomboy/Synchronization/SyncUtils.cs:139
+#: ../Tomboy/Synchronization/SyncUtils.cs:137
 msgid ""
-"The synchronization you've chosen requires the FUSE module to be loaded.\n"
+"The synchronization option you have chosen requires the FUSE module to be "
+"loaded.\n"
 "\n"
 "To avoid getting this prompt in the future, you should load FUSE at "
 "startup.  Add \"modprobe fuse\" to /etc/init.d/boot.local or \"fuse\" to /"
-"etc/modules."
+"etc/modules.\n"
+"\n"
+"Do you want to load the FUSE module now?"
 msgstr ""
 "Način usklajevanja, ki ste ga izbrali zahteva naložen modul FUSE.\n"
 "\n"
@@ -2410,43 +2444,43 @@ msgstr "Osnovni razvoj:"
 msgid "Contributors:"
 msgstr "Sodelavci:"
 
-#: ../Tomboy/Tomboy.cs:418
+#: ../Tomboy/Tomboy.cs:420
 msgid "translator-credits"
 msgstr ""
 "Matej Urbančič <mateju@svn.gnome.org>\n"
 "Matjaž Horvat <m@owca.info>"
 
-#: ../Tomboy/Tomboy.cs:427
+#: ../Tomboy/Tomboy.cs:429
 msgid ""
 "Copyright © 2004-2007 Alex Graveley\n"
-"Copyright © 2004-2011 Others\n"
+"Copyright © 2004-2017 Others\n"
 msgstr ""
 "Avtorske pravice © 2004-2007 Alex Graveley\n"
-"Avtorske pravice © 2004-2011 Drugi\n"
+"Avtorske pravice © 2004-2018 Drugi\n"
 
-#: ../Tomboy/Tomboy.cs:429
+#: ../Tomboy/Tomboy.cs:431
 msgid "A simple and easy to use desktop note-taking application."
 msgstr "Preprost in enostaven program za pisanje sporočilc."
 
-#: ../Tomboy/Tomboy.cs:441
+#: ../Tomboy/Tomboy.cs:443
 msgid "Homepage"
 msgstr "Domača stran"
 
-#: ../Tomboy/Tomboy.cs:577
+#: ../Tomboy/Tomboy.cs:579
 msgid ""
 "Tomboy: A simple, easy to use desktop note-taking application.\n"
 "Copyright © 2004-2007 Alex Graveley\n"
 "<alex@beatniksoftware.com>\n"
 "\n"
-"Copyright © 2004-2011 Others\n"
+"Copyright © 2004-2017 Others\n"
 msgstr ""
 "Tomboy: enostaven program za pisanje sporočilc na namizju.\n"
 "Avtorske pravice © 2004-2007 Alex Graveley\n"
 "<alex@beatniksoftware.com>\n"
 "\n"
-"Avtorske pravice © 2004-2011 Drugi razvijalci\n"
+"Avtorske pravice © 2004-2018 Drugi razvijalci\n"
 
-#: ../Tomboy/Tomboy.cs:591
+#: ../Tomboy/Tomboy.cs:593
 msgid ""
 "Usage:\n"
 "  --version\t\t\tPrint version information.\n"
@@ -2460,7 +2494,7 @@ msgstr ""
 "  --note-path [path]\t\tNaloži/shrani podatke o sporočilcu v tej mapi.\n"
 "  --search [text]\t\tOdpre okno vseh sporočil z iskanim besedilom.\n"
 
-#: ../Tomboy/Tomboy.cs:601
+#: ../Tomboy/Tomboy.cs:603
 msgid ""
 "  --new-note\t\t\tCreate and display a new note.\n"
 "  --new-note [title]\t\tCreate and display a new note, with a title.\n"
@@ -2475,7 +2509,7 @@ msgstr ""
 "  --start-here\t\t\tPrikaže sporočilce 'Začnite tukaj'.\n"
 "  --highlight-search [text]\tIšče in poudari besedilo v odprtem sporočilcu.\n"
 
-#: ../Tomboy/Tomboy.cs:611
+#: ../Tomboy/Tomboy.cs:613
 msgid ""
 "  --addin:html-export-all [path]\tExports all notes to HTML in the given "
 "location.\n"
@@ -2487,7 +2521,7 @@ msgstr ""
 "  --addin:html-export-all-quit [path]\tIzvozi vsa sporočilca v datoteke HTML "
 "na podano mesto in konča program.\n"
 
-#: ../Tomboy/Tomboy.cs:621
+#: ../Tomboy/Tomboy.cs:623
 #, csharp-format
 msgid "Version {0}"
 msgstr "Različica {0}"
@@ -2617,13 +2651,23 @@ msgstr ""
 msgid "Note title taken"
 msgstr "Naslov sporočilca je v uporabi"
 
-#: ../Tomboy/Watchers.cs:605
+#: ../Tomboy/Watchers.cs:610
 msgid "_Copy Link Address"
 msgstr "_Kopiraj naslov povezave"
 
-#: ../Tomboy/Watchers.cs:610
+#: ../Tomboy/Watchers.cs:615
 msgid "_Open Link"
 msgstr "_Odpri povezavo"
+
+#~ msgid ""
+#~ "Unique identifier for this Tomboy client, used when communicating with a "
+#~ "sychronization server."
+#~ msgstr ""
+#~ "Edinstveno določilo za ta odjemalec Tomboy, namenjeno komunikaciji s "
+#~ "strežnikom usklajevanja."
+
+#~ msgid "An error ocurred while connecting to the specified server:"
+#~ msgstr "Prišlo je do napake med povezovanjem z navedenim strežnikom:"
 
 #~ msgid "Really delete this note?"
 #~ msgstr "Ali želite izbrisati to sporočilce?"
